@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.IMG{
+    width: 100px;
+}
+
+#home{
+    background-image: url(./BG1.jpg);
+    width: 100%;
+    height: 88vh;
+    background-size: cover;
+}
+#home-content{
+    letter-spacing: 3px;
+}
+@media screen and (max-width: 415px){
+    #home{
+        height: 92vh;
+    }
+}
+@media screen and (max-width: 1025px){
+    #home{
+        height: 96vh;
+    }
+}
